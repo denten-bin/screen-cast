@@ -10,7 +10,7 @@ then
     exit
 fi
 
-STREAM_KEY=$(< $1)
+STREAM_KEY=$(cat $1)
 
 #variable definitions
 INRES="1366x768" # input resolution
