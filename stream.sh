@@ -2,8 +2,6 @@
 
 # pass in the key
 
-## pass the file name and stopwords dictionary as an argument
-
 if [ $# -eq 0 ]
 then
     echo "pass the streaming key"
